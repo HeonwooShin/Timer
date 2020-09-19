@@ -1,0 +1,29 @@
+body {
+    color: white;
+    background-color: red;
+    text-align: center;
+    margin: 100px;
+
+    user-select: none;
+}
+
+span {
+    font-size: 50px;
+    margin: 44px;
+    cursor: pointer;
+}
+
+
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.btn {
+    margin: 50px;
+}
+
+.hidden {
+    display: none;
+}
