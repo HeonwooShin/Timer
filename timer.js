@@ -72,7 +72,7 @@ function changeClock() {
 
 start.addEventListener('click', function() {
     time = hour*3600 + min*60 + sec;
-    background.style.backgroundColor = '#09E8DE';
+    background.style.backgroundColor = '#00CDD1';
     
     if (time > 0 & stopbtn.classList.contains('hidden')) {
         
@@ -90,7 +90,7 @@ start.addEventListener('click', function() {
                     start.classList.remove('hidden');
                     stopbtn.classList.add('hidden');
                     
-                    background.style.backgroundColor = '#F4308F';
+                    background.style.backgroundColor = '#E0007C';
                     sound.play()
                 }
                 
